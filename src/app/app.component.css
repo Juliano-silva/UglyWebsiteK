@@ -1,0 +1,213 @@
+@font-face {
+  font-family: 'Batman';
+  src: url(../../Arquivos/fonts/Gotham-Font/Gotham-Black.otf);
+}
+@font-face {
+  font-family: 'Esquisita';
+  src: url(../../Arquivos/fonts/detoxy/DETOXIFY.TTF);
+}
+#Topo{
+  font-family: 'Batman';
+  text-align: center;
+  font-size: 2vh;
+  color: darkorange;
+  text-shadow: 0.1vh 0.1vh 0.1vh #ccff00;
+  background: black;
+}
+#logo{
+  text-align: center;
+  margin-top: 2vh;
+  font-size: 12vh;
+  background-image: linear-gradient(rgb(0, 217, 255),rgb(48, 224, 255),white,white);
+  -webkit-background-clip: text;
+   color: transparent;
+   font-family: 'Esquisita';
+}
+#logo > span{
+  font-size: 4vh;
+  color: gray;
+}
+#Site{
+  border: 0.5vh solid #6666cc;
+  text-align: center;
+  width: 45vh;
+  margin: auto;
+  margin-top: 2vh;
+  border-radius: 2.5vh;
+  background: #6699ff;
+}
+#Site > span{
+  display: block;
+  border: 0.1vh solid #6666cc;
+}
+#Site > h1{
+  color: #ffff99;
+  font-size: 6vh;
+}
+#Site > h2{
+  font-size: 5.5vh;
+}
+#Site > h4{
+  color: #ffff99;
+  background: black;
+  border-radius: 0px 0px 2vh 2vh;
+  font-size: 4vh;
+}
+#Meio{
+  font-family: 'Batman';
+  text-align: center;
+  color: #ccff00;
+  margin-top: 2vh;
+  font-size: 3vh;
+}
+#Box,#Box2,#Box3,#Box4,#Box5{
+  border: 2px solid purple;
+  width: 80%;
+  margin: auto;
+  margin-top: 2vh;
+  border-radius: 2vh;
+  background: rgb(85, 84, 84);
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  opacity: 0.9;
+}
+#Box > p{
+  margin-top: 1vh;
+  margin-left: 20px;
+  font-size: 2vh;
+  text-shadow: 0.1vh 0.1vh 0.1vh black;
+}
+a{
+  display: block;
+  text-align: center;
+  color: yellow;
+  text-decoration: none;
+  font-size: 2.6vh;
+  margin-top: 1.7vh;
+  transition: .5s;
+}
+#Box > span{
+  display: block;
+  background-image: url(../../Arquivos/hugonoguto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 120vh;
+  margin: auto;
+  margin-top: 1vh;
+}
+a:hover{
+  filter: invert(1);
+}
+#Box2{
+  margin-top: -0.5vh;
+}
+#Box2 > img{
+  display: block;
+  margin: auto;
+  margin-top: 1vh;
+  width: 30em;
+}
+#Box2 > h1{
+  font-size: 2vh;
+  text-align: center;
+  margin-top: 0.5vh;
+}
+#Card{
+  border: 2px solid rgb(16, 16, 172);
+  background: rgb(6, 6, 78);
+  width: 20%;
+  margin: auto;
+  margin-top: 4vh;
+  border-radius: 2vh;
+}
+#Card > img{
+  width: 100%;
+  border-radius: 2vh 2vh 0px 0px;
+}
+#Card > h6,#Card > p{
+  text-align: center;
+  font-size: 2vh;
+  color: yellow;
+}
+#Box3 > h1{
+  text-align: center;
+  margin-top: 1vh;
+  text-transform: uppercase;
+}
+#MeioTexto{
+  display: inline-block;
+}
+#Box4 > p{
+  text-align: center;
+  font-size: 2.5vh;
+}
+#Box5 > img{
+  display: block;
+  width: 20em;
+  height: 20em;
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 1vh;
+}
+#Box5 > h1{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-size: 3vh;
+  margin-top: 1vh;
+  text-shadow: 2px 2px 2px #6666cc;
+}
+#Lista{
+  border: 2px solid #3399ff;
+  width: 80%;
+  margin: auto;
+  margin-top: 2vh;
+  border-radius: 1vh;
+  overflow: auto;
+  background: #172f5f;
+}
+#Lista::-webkit-scrollbar{
+  width: 0px;
+}
+#Lista > h1{
+  font-size: 2.5vh;
+  text-shadow: 1px 1px 1px #ffff99;
+  text-align: center;
+  color: #ccff00;
+  background: #3399ff;
+}
+#ListaEsquerda{
+  border: 0.1vh solid #6666cc;
+  width: 50%;
+  background: #6699ff;
+}
+#ListaDireita{
+  border: 0.1vh solid #6666cc;
+  width: 50%;
+  background: #6699ff;
+  margin-top: -225.6vh;
+  margin-left: 80vh;
+}
+#ListaDireita > img,#ListaEsquerda > img{
+  display: block;
+  margin: auto;
+  margin-top: 2vh;
+  width: 20vh;
+  height: 12vh;
+}
+#ListaEsquerda > h4,#ListaDireita > h4{
+  text-align: center;
+  margin-top: 1vh;
+  font-size: 2vh;
+  color: #ccff00;
+  text-shadow: 0.2vh 0.2vh 0.6vh #ffff99;
+}
+#href{
+  margin-top: -0.2vh;
+}
+#Final{
+  text-align: center;
+  margin-top: 1vh;
+  font-size: 3.5vh;
+}
